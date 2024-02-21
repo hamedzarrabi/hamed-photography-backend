@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c475c50-851e-46da-98c7-0a4e80674c4f" name="Changes" comment="hamed-photography">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/entity/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/entity/photos/Photo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/entity/security/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/entity/security/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/exception/ErrorDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/exception/HamedPhotoSystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/hami/photo/common/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/controller/PhotoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/dto/CategoryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/dto/PhotoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/mapper/PhotoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/repository/PhotoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/service/PhotoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture-service/src/main/java/com/hami/photo/service/impl/PhotoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/dto/JwtAuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/dto/RefreshTokenRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/dto/SigningRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/dto/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/service/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/service/impl/AuthenticationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/service/impl/JWTServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security-service/src/main/java/com/hami/photo/security/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.service/src/main/java/com/hami/photo/ServerRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.service/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2cWmsDmh4EKewoJx3S5n9YYP3GH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.hamedphoto-service-backend [clean].executor": "Run",
+    "Maven.hamedphoto-service-backend [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ServerRun.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Backend/ecomerce-mvn-full-master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Backend\hamedphoto-service-backend\picture-service\src\main\java\com\hami\photo\service" />
+      <recent name="D:\Backend\hamedphoto-service-backend\server.service\src\main\resources" />
+      <recent name="D:\Backend\hamedphoto-service-backend\security-service\src\main\java\com\hami\photo\security" />
+      <recent name="D:\Backend\hamedphoto-service-backend\common\src\main\java\com\hami\photo\common" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hami.photo.controller" />
+      <recent name="com.hami.photo.service" />
+      <recent name="com.hami.photo.repository" />
+      <recent name="com.hami.photo.mapper" />
+      <recent name="com.hami.photo.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ServerRun" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="server-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hami.photo.ServerRun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hami.photo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServerRun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c475c50-851e-46da-98c7-0a4e80674c4f" name="Changes" comment="" />
+      <created>1708235915149</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708235915149</updated>
+      <workItem from="1708235916186" duration="18550000" />
+      <workItem from="1708321306936" duration="21357000" />
+      <workItem from="1708405031451" duration="18937000" />
+      <workItem from="1708492957935" duration="10439000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hamed-photography" />
+    <option name="LAST_COMMIT_MESSAGE" value="hamed-photography" />
+  </component>
+</project>
